@@ -1,6 +1,7 @@
 
 const WEATHER = prompt('¿Cómo está el clima?')
-let opciona = 'soleado'
+
+
 
 if(WEATHER === 'soleado' ) {
     console.log('oh!, que buen clima para estar en la playa')
@@ -15,3 +16,25 @@ if(WEATHER === 'soleado' ) {
     const WEATHER_DESCRIPTION = prompt('¿Describe tu dia?')
     console.log(WEATHER_DESCRIPTION)
 }
+
+
+switch(WEATHER){
+    case 'soleado': 
+        console.log('oh!, que buen clima para estar en la playa')
+    break;
+    case 'soleado': 
+        console.log('oh!, que buen clima para estar en la playa')
+    break;
+    case 'soleado': 
+        console.log('oh!, que buen clima para estar en la playa')
+    break;
+    case 'soleado': 
+        console.log('oh!, que buen clima para estar en la playa')
+    break;
+    default:
+        const WEATHER_DESCRIPTION = prompt('¿Describe tu dia?')
+        console.log(WEATHER_DESCRIPTION)
+
+
+}
+
